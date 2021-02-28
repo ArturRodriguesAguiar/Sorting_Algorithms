@@ -6,9 +6,9 @@
 Comparação cronológica frente o caráter da disposição dos dados numéricos da array:
 |Disposição dos dados numéricos|Tempo de execução (em segundos)|
 |---|---|
-|Aleatória|-|
-|Crescente|-|
-|Decrescente|-|
+|Aleatória|47.977|
+|Crescente|13.033|
+|Decrescente|49.607|
 
 BubbleSort e sua complexidade frente a cada disposição dos dados numéricos da array:
 |Situação|Complexidade cronológica|
@@ -120,7 +120,7 @@ Tabela de dados gerais para intuito de comparação dos tempos de execução par
 
 |Algoritmo|Números Aleatórios|Números Crescentes|Números Decrescentes|Pior Caso|Caso Médio|Melhor Caso|
 |---|---|---|---|---|---|---|
-|BubbleSort|?|?|?|?|?|?|
+|BubbleSort|47.977|13.033|49.607|Números Decrescentes|Números Aleatórios|Números Crescentes|
 |SelectionSort|14.206s|14.314s|22.054s|Números Decrescentes|Números Crescentes|Números Aleatórios|
 |InsertionSort|8.23s|0.001s|16.586s|Números Decrescentes|Números Aleatórios|Números Crescentes|
 |QuickSort|0.022|14.759|?|?|?|?|
