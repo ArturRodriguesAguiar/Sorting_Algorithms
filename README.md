@@ -58,9 +58,9 @@ Insertion Sort, ou ordenação por inserção, é um algoritmo de ordenação qu
 Comparação cronológica frente o caráter da disposição dos dados numéricos da array:
 |Disposição dos dados numéricos|Tempo de execução (em segundos)|
 |---|---|
-|Aleatória|-|
-|Crescente|-|
-|Decrescente|-|
+|Aleatória|0.022|
+|Crescente|14.759|
+|Decrescente|?|
 
 QuickSort e sua complexidade frente a cada disposição dos dados numéricos da array:
 |Situação|Complexidade cronológica|
@@ -113,3 +113,16 @@ HeapSort e sua complexidade frente a cada disposição dos dados numéricos da a
 
 O heapsort utiliza uma estrutura de dados chamada heap, para ordenar os elementos à medida que os insere na estrutura. Assim, ao final das inserções, os elementos podem ser sucessivamente removidos da raiz da heap, na ordem desejada, lembrando-se sempre de manter a propriedade de max-heap.<br/>
 A heap pode ser representada como uma árvore (uma árvore binária com propriedades especiais) ou como um vetor. Para uma ordenação decrescente, deve ser construída uma heap mínima (o menor elemento fica na raiz). Para uma ordenação crescente, deve ser construído uma heap máxima (o maior elemento fica na raiz).
+
+## Conclusão
+
+Tabela de dados gerais para intuito de comparação dos tempos de execução para cada sequência de números e conclusão dos aspectos gerais de cada algoritmo. Vale lembrar que cada um dos tempos medidos, foi para 100000 elementos.
+
+|Algoritmo|Números Aleatórios|Números Crescentes|Números Decrescentes|Pior Caso|Caso Médio|Melhor Caso|
+|---|---|---|---|---|---|---|
+|BubbleSort|?|?|?|?|?|?|
+|SelectionSort|14.206s|14.314s|22.054s|Números Decrescentes|Números Crescentes|Números Aleatórios|
+|InsertionSort|8.23s|0.001s|16.586s|Números Decrescentes|Números Aleatórios|Números Crescentes|
+|QuickSort|0.022|14.759|?|?|?|?|
+|MergeSort|0.024s|0.012s|0.014s|Números Aleatórios|Números Decrescentes|Números Crescentes|
+|HeapSort|0.041s|0.032s|0.03s|Números Aleatórios|Números Crescentes|Números Decrescentes|
